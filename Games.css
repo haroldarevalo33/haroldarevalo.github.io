@@ -1,0 +1,123 @@
+/*Games.html*/
+
+html {
+  scroll-behavior: smooth;
+}
+
+
+body {
+  font-family: var(--font-family);
+  background-image: linear-gradient(110deg, #fdcd3b 60%, #ffed4b 60%);
+}
+
+.Home {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  font-family: sans-serif;
+  
+}
+.Home img {
+  height: 350px;
+  width: 365px;
+   object-position: bottom;
+   margin-top: 2%;
+   margin-right:-3%;
+  background-color: white;
+  margin-top: 5%;
+  border-radius: 13%;
+  border: 5px;
+   transition: 0.7s;
+
+}
+
+.Home img:hover{
+    filter: grayscale(1);
+    transition: 1s ;
+    cursor: pointer;
+    transform: translatex(-10px);
+    
+    }
+    .bio {
+  width: 50rem;
+  padding: 1.525rem;
+  border-radius: 20px;
+  background-image: url(360_F_228518365_HNKIxi7GjLTKN3JtlB99NTZwFSGe7udE.jpg);
+  background-repeat: no-repeat;
+  background-size: 1000px 300px;
+  margin-left: 4%;
+  margin-top: 10%;
+   transition: 0.7s;
+
+
+}
+
+.bio:hover{
+   padding-block: 28px;
+    transform: translateY(-9px);
+
+}
+.bio h1 {
+  margin-bottom: var(--bottom-margin);
+  font-weight: bolder;
+  color: white;
+  text-align:center;
+}
+
+.bio p {
+  line-height: var(--line-height);
+  padding: 0.3rem 0;
+  color: white;
+  text-align:center;
+}
+
+@media screen and (max-width: 915px) {
+
+   .Home {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: auto;
+  font-family: sans-serif;
+}
+
+.Home img {
+  height: 210px;
+  width: 216px;
+  object-position: bottom;
+  background-color: white;
+  margin-top: 10%;
+  border-radius: 13%;
+  padding: 0px;
+ transition: 0.7s;
+ flex-direction: column;
+ margin-right: 0%;
+}
+
+ .bio {
+   flex-direction: column;
+    width: 300px;
+    margin-top: 6%;
+    margin-right: 15px;
+    background-size: 600px;
+   
+  }
+
+  .bio h1 {
+  margin-bottom: var(--bottom-margin);
+  font-weight: bolder;
+  color: white;
+  margin-left: 8px;
+
+ 
+}
+
+.bio p {
+  line-height: var(--line-height);
+  padding: 0.3rem 0;
+  color: white;
+
+  }
+}

@@ -1,0 +1,128 @@
+/*Guitar.html*/
+
+html {
+  scroll-behavior: smooth;
+}
+
+
+body {
+  font-family: var(--font-family);
+  background-image: linear-gradient(110deg, #fdcd3b 60%, #ffed4b 60%);
+}
+
+
+.Home {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  font-family: sans-serif;
+  
+  
+  
+}
+
+.Home img {
+  height: 330px;
+  width: 330px;
+   object-position: bottom;
+   margin-right:13%;
+  background-color: white;
+  
+  border-radius: 15%;
+  margin-top: 6%;
+  padding: 0px;
+  transition: 0.7s;
+}
+
+.Home img:hover{
+    filter: grayscale(1);
+    cursor: pointer;
+    transform: translatex(-10px);
+    transition: 1s ;
+    
+    }
+
+
+    .bio {
+  width: 50rem;
+  padding: 1.525rem;
+  border-radius: 20px;
+  margin-left: -12%;
+  margin-top: 10%;
+  background-image: url(glowing-shiny-musical-notes-background-design_1017-32856.avif);
+  background-repeat: no-repeat;
+  background-size: 1000px 300px;
+  transition: 0.7s;
+
+}
+
+.bio:hover{
+   padding-block: 28px;
+    transform: translateY(-9px);
+
+}
+.bio h1 {
+  margin-bottom: var(--bottom-margin);
+  font-weight: bolder;
+  color: white;
+
+}
+
+.bio p {
+  line-height: var(--line-height);
+  padding: 0.3rem 0;
+  color: whitesmoke;
+
+}
+
+@media screen and (max-width: 915px) {
+
+   .Home {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: auto;
+  font-family: sans-serif;
+}
+
+.Home img {
+  height: 210px;
+  width: 216px;
+   object-position: bottom;
+ 
+  background-color: white;
+  margin-top: 10%;
+  border-radius: 13%;
+  padding: 0px;
+ transition: 0.7s;
+ flex-direction: column;
+ margin-right: 5%;
+}
+
+ .bio {
+   flex-direction: column;
+    width: 300px;
+    
+    margin-top: 6%;
+    margin-right: -50px;
+    background-size: 600px;
+   
+  }
+
+  .bio h1 {
+  margin-bottom: var(--bottom-margin);
+  font-weight: bolder;
+  color: white;
+  margin-left: 8px;
+ 
+}
+
+.bio p {
+  line-height: var(--line-height);
+  padding: 0.3rem 0;
+  color: white;
+
+  }
+}
